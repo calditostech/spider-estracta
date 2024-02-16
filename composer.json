@@ -1,0 +1,21 @@
+{
+    "name": "ricardo/spider-estracta",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Spider\\": "src/Spider"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ricardo",
+            "email": "rmoreira787@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}
